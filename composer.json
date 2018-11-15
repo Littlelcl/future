@@ -1,0 +1,17 @@
+{
+    "name": "ambition/future",
+    "description": "common function",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Wind\\Fool\\" : "future/"
+        },
+        "files":[
+            "future/Helper/Helper.php"
+        ]
+    }
+}
